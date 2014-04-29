@@ -113,6 +113,8 @@ DJ.pathSteps = (prevArray, fromName ,toName) ->
   return steps
 
 exports.dj = DJ  
+
+# Source: Wikipedia
   # function Dijkstra(Graph, source):
   #       for each vertex v in Graph:                                // Initializations
   #           dist[v]  := infinity ;                                  // Unknown distance function from 
