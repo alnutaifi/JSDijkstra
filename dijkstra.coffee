@@ -105,7 +105,6 @@ DJ.dijkstra = (graph, source) ->
 
 DJ.pathSteps = (prevArray, fromName ,toName) ->
   steps = []
-  a = {}
   next = toName
   while next != fromName
     steps.unshift(next)
